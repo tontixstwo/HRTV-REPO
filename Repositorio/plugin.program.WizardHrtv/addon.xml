@@ -9,6 +9,13 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
   </extension>
+  
+  <extension point="xbmc.addon.repository" name="High Roller TV">
+        <info>https://raw.githubusercontent.com/tontixstwo/HRTV-REPO/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/tontixstwo/HRTV-REPO/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/tontixstwo/master/Repositorio/</datadir>
+    </extension>
+  
   <extension point="xbmc.addon.metadata">
     <summary>Wizard HRTV</summary>
     <description>Intelligent installer that helps you configure your Kodi correctly</description>
